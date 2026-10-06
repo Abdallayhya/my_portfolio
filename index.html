@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Abdalla Yhya | Full Stack Developer</title>
+<meta name="description" content="Portfolio of Abdalla Yhya Elsaid - Full Stack .NET & MEAN Developer">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav">
+  <a href="#home" class="logo">&lt;AY/&gt;</a>
+  <nav id="menu">
+    <a href="#about" data-i18n="nav_about">About</a>
+    <a href="#skills" data-i18n="nav_skills">Skills</a>
+    <a href="#experience" data-i18n="nav_exp">Experience</a>
+    <a href="#freelance" data-i18n="nav_free">Freelance</a>
+    <a href="#projects" data-i18n="nav_projects">Projects</a>
+    <a href="#certificates" data-i18n="nav_certs">Certificates</a>
+    <a href="#contact" data-i18n="nav_contact">Contact</a>
+  </nav>
+  <div class="tools">
+    <button id="langBtn" class="icon-btn" aria-label="Language">عربي</button>
+    <button id="themeBtn" class="icon-btn" aria-label="Theme">☀</button>
+    <button id="burger" class="icon-btn burger" aria-label="Menu">☰</button>
+  </div>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="hero-text reveal">
+    <p class="hello" data-i18n="hello">Hello, I'm</p>
+    <h1 data-i18n="name">Abdalla Yhya Elsaid</h1>
+    <h2><span id="typed"></span><span class="cursor">|</span></h2>
+    <p class="lead" data-i18n="lead">Third-year Data Science student at Alexandria University, building end-to-end web apps with .NET and the MEAN stack.</p>
+    <div class="cta">
+      <a href="#contact" class="btn primary" data-i18n="btn_contact">Contact me</a>
+      <a href="#certificates" class="btn" data-i18n="btn_certs">View certificates</a>
+    </div>
+  </div>
+  <div class="hero-img reveal">
+    <div class="ring"><img src="photo.jpg" alt="Abdalla Yhya"></div>
+  </div>
+</section>
+
+<section id="about" class="reveal">
+  <h3 class="title" data-i18n="nav_about">About</h3>
+  <div class="about-grid">
+    <p data-i18n="about_p">Third-year Data Science & Computer Science student at Alexandria University with practical experience in Full Stack .NET and MEAN-Stack development. I have a strong background in problem solving and algorithms through competitive programming (ECPC), plus technical and leadership experience in student organizations. I'm looking for a Software Engineering internship or a Junior Full Stack Developer role.</p>
+    <div class="stats">
+      <div class="card"><b>3rd</b><span data-i18n="st_year">Year Student</span></div>
+      <div class="card"><b>4</b><span data-i18n="st_free">Freelance Projects</span></div>
+      <div class="card"><b>3</b><span data-i18n="st_train">Trainings</span></div>
+      <div class="card"><b>120h</b><span data-i18n="st_hours">MEAN Training</span></div>
+      <div class="card"><b>5+</b><span data-i18n="st_events">Events Organized</span></div>
+    </div>
+  </div>
+  <div class="edu card">
+    <h4 data-i18n="edu_t">Education</h4>
+    <p><b data-i18n="edu_u">Faculty of Computer and Data Science, Alexandria University</b></p>
+    <p class="muted" data-i18n="edu_d">B.Sc. Computer Science (Major: Data Science) · Oct 2023 – Present (Expected 2027)</p>
+    <p class="muted" data-i18n="edu_c">Data Structures, Algorithms, Databases, OOP, Operating Systems, Software Engineering</p>
+  </div>
+</section>
+
+<section id="skills" class="reveal">
+  <h3 class="title" data-i18n="nav_skills">Skills</h3>
+  <div class="skills">
+    <div class="card"><h4 data-i18n="sk_lang">Programming Languages</h4><div class="chips"><span>C#</span><span>SQL</span><span>JavaScript</span><span>TypeScript</span><span>C++</span><span>Python</span></div></div>
+    <div class="card"><h4 data-i18n="sk_back">Backend</h4><div class="chips"><span>ASP.NET Core MVC</span><span>Web API</span><span>Node.js</span><span>Express.js</span><span>REST APIs</span></div></div>
+    <div class="card"><h4 data-i18n="sk_front">Frontend</h4><div class="chips"><span>React</span><span>Angular</span><span>HTML5</span><span>CSS3</span><span>Tailwind</span><span>Bootstrap</span><span>jQuery</span></div></div>
+    <div class="card"><h4 data-i18n="sk_db">Databases & ORM</h4><div class="chips"><span>SQL Server</span><span>EF Core</span><span>MongoDB</span><span>LINQ</span><span>ADO.NET</span></div></div>
+    <div class="card"><h4 data-i18n="sk_tools">Tools</h4><div class="chips"><span>Git</span><span>GitHub</span><span>Visual Studio</span><span>VS Code</span><span>Postman</span><span>Swagger</span></div></div>
+    <div class="card"><h4 data-i18n="sk_con">Concepts</h4><div class="chips"><span>OOP</span><span>SOLID</span><span>Clean Architecture</span><span>Design Patterns</span><span>DSA</span><span>Unit Testing</span></div></div>
+  </div>
+  <p class="muted langs" data-i18n="sk_spoken">Languages: Arabic (Native) · English (Intermediate – B1)</p>
+</section>
+
+<section id="experience" class="reveal">
+  <h3 class="title" data-i18n="nav_exp">Experience & Training</h3>
+  <div class="timeline">
+    <div class="item"><span class="date">2024</span>
+      <h4 data-i18n="t6_t">Competitive Programming Contestant</h4>
+      <p data-i18n="t6_d">Trained on data structures and algorithms in C++ and solved problems in high-pressure team settings.</p></div>
+    <div class="item"><span class="date">Dec 2025 – Jul 2026</span>
+      <h4 data-i18n="t1_t">Full-Stack .NET Developer Trainee — DEPI (MCIT)</h4>
+      <p data-i18n="t1_d">Built end-to-end web apps with C#, ASP.NET Core, EF Core, SQL Server and React, applying SOLID, Clean Architecture and RESTful API design.</p></div>
+    <div class="item"><span class="date">Jul 2026 – Aug 2026</span>
+      <h4 data-i18n="t2_t">MEAN-Stack Trainee — NTI & ITIDA</h4>
+      <p data-i18n="t2_d">120 training hours (90 technical + 30 freelancing), score 85%. Built full-stack JavaScript apps with MongoDB, Express, Angular and Node.js.</p></div>
+    <div class="item"><span class="date">Sep 2026</span>
+      <h4 data-i18n="t3_t">Data Science Summer Trainee — APRC</h4>
+      <p data-i18n="t3_d">Completed practical summer industrial training in Data Science at Alexandria Petroleum Refining Company with an "Excellent" rating.</p></div>
+        <div class="item"><span class="date">Oct 2024 – Oct 2025</span>
+          <h4 data-i18n="t5_t">Organizing Committee — IEEE Student Branch, Alexandria University</h4>
+          <p data-i18n="t5_d">Helped run 5+ workshops, hackathons and guest lectures, working in cross-functional teams.</p></div>
+      <div class="item"><span class="date">2025 – 2026</span>
+        <h4 data-i18n="t4_t">Organizing Committee — HackerRank Student Club & ICPC Alexandria</h4>
+        <p data-i18n="t4_d">Coordinated programming contests, workshops and technical events, managing logistics and participant support.</p></div>
+  </div>
+</section>
+
+<section id="freelance" class="reveal">
+  <h3 class="title" data-i18n="nav_free">Freelance</h3>
+  <div class="card project">
+    <h4 data-i18n="fr_t">Full-Stack Freelance Developer</h4>
+    <p class="muted" data-i18n="fr_d">I build full-stack websites for clients, from design to database and deployment. I've already delivered 4 freelance projects, and the gigs I logged on the DEPI platform were reviewed and approved.</p>
+    <ul>
+      <li data-i18n="fr_a">Professional websites that showcase products and businesses.</li>
+      <li data-i18n="fr_b">Responsive front end, backend APIs and database design.</li>
+      <li data-i18n="fr_c">Direct communication with clients, delivering on deadlines.</li>
+    </ul>
+    <div class="chips"><span>4 Projects</span><span>Full Stack</span><span>Freelance</span><span>DEPI Approved</span></div>
+    <a href="#contact" class="btn primary hire" data-i18n="fr_btn">Hire me</a>
+  </div>
+</section>
+
+<section id="projects" class="reveal">
+  <h3 class="title" data-i18n="nav_projects">Projects</h3>
+  <div class="card project">
+    <h4>TaskFlow <span class="muted" data-i18n="p1_sub">— Employee Task Management System</span></h4>
+    <ul>
+      <li data-i18n="p1_a">Role-based access control (Admin vs. Employee) using ASP.NET Core Identity.</li>
+      <li data-i18n="p1_b">Repository Pattern and LINQ for clean separation of concerns and optimized queries.</li>
+      <li data-i18n="p1_c">Real-time task updates with AJAX partial views, without full page reloads.</li>
+    </ul>
+    <div class="chips"><span>ASP.NET Core MVC</span><span>EF Core</span><span>SQL Server</span><span>AJAX</span><span>Bootstrap</span></div>
+  </div>
+</section>
+
+<section id="certificates" class="reveal">
+  <h3 class="title" data-i18n="nav_certs">Certificates</h3>
+  <div class="certs">
+    <figure class="cert" data-full="photo_2026-09-16_00-15-11.jpg"><img loading="lazy" src="photo_2026-09-16_00-15-11.jpg" alt="DEPI Certificate"><figcaption data-i18n="c1">Digital Egypt Pioneers – Full Stack .NET (Nov 2025 – Jul 2026)</figcaption></figure>
+    <figure class="cert" data-full="photo_2026-08-16_14-18-03.jpg"><img loading="lazy" src="photo_2026-08-16_14-18-03.jpg" alt="NTI Certificate"><figcaption data-i18n="c2">NTI & ITIDA – MEAN-Stack Web Development (120 hrs, 85%)</figcaption></figure>
+    <figure class="cert" data-full="photo_2026-09-03_08-15-16.jpg"><img loading="lazy" src="photo_2026-09-03_08-15-16.jpg" alt="APRC Certificate"><figcaption data-i18n="c3">APRC – Data Science Summer Training (Aug 2026)</figcaption></figure>
+    <figure class="cert" data-full="photo_2026-10-05_21-28-57.jpg"><img loading="lazy" src="photo_2026-10-05_21-28-57.jpg" alt="Innovegypt Certificate"><figcaption data-i18n="c4">ITIDA Innovegypt – 45-hour course & startup project</figcaption></figure>
+  </div>
+</section>
+
+<section id="contact" class="reveal">
+  <h3 class="title" data-i18n="nav_contact">Contact</h3>
+  <div class="contact-grid">
+    <div class="links">
+      <a class="card link" href="mailto:abdallayhya77@gmail.com"><span>✉</span><div><small data-i18n="email">Email</small><b dir="ltr">abdallayhya77@gmail.com</b></div></a>
+      <a class="card link" href="tel:+201289962140"><span>☎</span><div><small data-i18n="phone">Phone</small><b dir="ltr">+20 128 996 2140</b></div></a>
+      <a class="card link" href="https://wa.me/201289962140" target="_blank" rel="noopener"><span>💬</span><div><small>WhatsApp</small><b dir="ltr">+20 128 996 2140</b></div></a>
+      <a class="card link" href="https://www.linkedin.com/in/abdalla-yhya/" target="_blank" rel="noopener"><span>in</span><div><small>LinkedIn</small><b dir="ltr">abdalla-yhya</b></div></a>
+      <div class="card link"><span>📍</span><div><small data-i18n="loc">Location</small><b data-i18n="loc_v">Alexandria, Egypt</b></div></div>
+    </div>
+    <form id="form" class="card">
+      <input id="fName" required data-ph="f_name" placeholder="Your name">
+      <input id="fMail" type="email" required data-ph="f_mail" placeholder="Your email">
+      <textarea id="fMsg" rows="5" required data-ph="f_msg" placeholder="Your message"></textarea>
+      <input type="text" id="fWeb" tabindex="-1" autocomplete="off" style="display:none">
+      <button class="btn primary" type="submit" data-i18n="f_send">Send message</button>
+      <p id="formStatus" class="status" role="status"></p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer><p>© <span id="yr"></span> Abdalla Yhya Elsaid</p></footer>
+
+<div id="lightbox" class="lightbox"><span class="close">✕</span><img alt=""></div>
+<script src="script.js"></script>
+</body>
+</html>
